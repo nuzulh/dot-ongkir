@@ -1,12 +1,12 @@
 # DOT Ongkir
 
-Hiring task DOT Indonesia.
+Hiring task DOT Indonesia. (Deployed to: https://dot-ongkir.vercel.app/)
 
 ## Development Guide
 
 Engines:
 
-- `Nodejs: V20.10.0`
+- `Nodejs: v20.10.0`
 
 Steps:
 
