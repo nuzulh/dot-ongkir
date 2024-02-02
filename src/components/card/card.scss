@@ -1,0 +1,27 @@
+.card {
+  padding: 1rem 1.4rem;
+  background: var(--data-color-foreground);
+  color: var(--data-color-background);
+  border-radius: 0.4rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: var(--data-shadow-primary);
+}
+
+.card-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.card-subtitle {
+  font-size: small;
+}
+
+.card-content {
+  margin: 0.8rem 0;
+}
+
+.card-footer {
+  text-align: center;
+  font-size: small;
+}

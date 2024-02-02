@@ -1,0 +1,55 @@
+$primary: seagreen;
+$background: #242424;
+$foreground: #ffffffda;
+$destructive: orangered;
+$shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+:root {
+  --data-color-primary: #{$primary};
+  --data-color-background: #{$background};
+  --data-color-foreground: #{$foreground};
+  --data-color-destructive: #{$destructive};
+  --data-shadow-primary: #{$shadow};
+
+  color: $foreground;
+  background: $background;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: Poppins, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}
+
+body {
+  min-height: 100vh;
+}
+
+button {
+  border: none;
+  background: transparent;
+  color: var(--data-color-foreground);
+  cursor: pointer;
+  padding: 0.3rem 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.2rem;
+}
+
+.app-logo {
+  color: var(--data-color-primary);
+  font-weight: 800;
+  z-index: 10;
+
+  &:hover {
+    scale: 1.035;
+  }
+}

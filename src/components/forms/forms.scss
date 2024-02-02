@@ -1,0 +1,35 @@
+form {
+  display: flex;
+  flex-direction: column;
+
+  button {
+    margin-top: 0.8rem;
+  }
+}
+
+input {
+  border: none;
+  outline-color: var(--data-color-primary);
+  padding: 0.4rem 0.6rem;
+  width: 100%;
+  border-radius: 0.3rem;
+  background: white;
+}
+
+.form-item {
+  margin-bottom: 0.4rem;
+
+  label {
+    font-size: small;
+    font-weight: 500;
+  }
+}
+
+.form-error {
+  color: var(--data-color-destructive);
+
+  p {
+    font-size: small;
+    margin-top: 0.2rem;
+  }
+}

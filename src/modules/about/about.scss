@@ -1,0 +1,30 @@
+.about-container {
+  flex-grow: 1;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-weight: 400;
+    margin: 1rem 0;
+  }
+
+  p {
+    width: 60%;
+    font-size: small;
+    font-weight: 300;
+  }
+
+  @media only screen and (max-width: 768px) {
+    p {
+      width: 90%;
+    }
+  }
+}
